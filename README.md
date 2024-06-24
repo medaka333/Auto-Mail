@@ -1,4 +1,4 @@
-#Auto-Mail
+# Auto-Mail
 メールを複数人に送る際：
 ・CCで送る　→　メールアドレスが漏洩してしまう
 ・BCCで送る　→　ビジネスマナー上NG
@@ -6,7 +6,7 @@
 
 ◎Toで個別に送るがその手間を減らす！
 ----------
-##How-to-use：
+## How-to-use：
 1．リポジトリをクローン
 2．response_page.phpのSMTP設定を自分用に書き換える
 3．サーバーを立ち上げる（`php -S localhost:8888`）
@@ -15,6 +15,6 @@
 7．確認画面`/confirm_page.php`にて問題なければOKでメールを送信。キャンセルで前画面に戻る。
 8. OKを押した場合はレスポンス画面`/response_page.php`へ移動し、正常にメールが送られていれば`Emails sent successfully`と表示される
 ----------
-##その他：
+## その他：
 ・composerのインストール
 ・今回はlinux環境で作成
